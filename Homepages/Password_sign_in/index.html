@@ -1,0 +1,49 @@
+<!--
+
+    Name: Rezwan Ahmed
+    Date: 3/19/22
+    Descrp: This is a practice file for requirments for password acception must
+            have Captilization, punctionation, number, and/or pick a random password
+            and must match it if they aquire it;
+    Note: HTML folder
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Password Requirments</title>
+</head>
+
+
+<body>
+
+    <h1>Enter the password you choose to use or click button for random password</h1>
+
+    <div class="border_line">
+
+        <input placeholder="Username" type="text" id="user_word">
+        <input placeholder="Password" type="password" id="pass_word">
+        <button type="submit" onclick="validPassword()">Submit</button>
+        <div class="showing_pass">
+            <label><input type="checkbox" onclick="showPassword()">Show Password</label>
+        
+            <!--If invalid input then print to screen *ERRROR**-->
+            <p id="demo"><p>
+        </div>
+    </div>
+
+    <!-- Prints to screen when valid password-->
+    <!--<div class="acceptPassword">
+        <h1>Congragulation the password is accepted you may continue</h1>
+        <button type="submit">Continue</button>
+    </div>-->
+    
+</body>
+
+
+
+</html>
